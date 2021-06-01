@@ -7,7 +7,12 @@ class CategoriesScreen extends StatelessWidget {
       children:<Widget>[
 
       ],
-      gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(maxCrossAxisExtent:200),
+      gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
+        maxCrossAxisExtent:200,
+        childAspectRatio: 1.5,
+        crossAxisSpacing: 20,
+        mainAxisSpacing: 20,
+      ),
     );
   }
 }
